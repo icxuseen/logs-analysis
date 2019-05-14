@@ -1,6 +1,6 @@
 # Logs Analysis Project
 
-1. psql news (this will access the "news" database found in newsdata.sql)
+1. psql news (this will access the "news" database found in newsdata.sql).
 
 2. The articles,logs and author tables are successfully dropped.
 
