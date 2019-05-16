@@ -1,0 +1,11 @@
+[Running] python -u "e:\MyProjects\Logs Analysis\logs-analysis.py"
+title Bad things gone, say good people name Anonymous Contributor
+title Balloon goons doomed name Markoff Chaney
+title Bears love berries, alleges bear name Ursula La Multa
+title Candidate is jerk, alleges rival name Rudolf von Treppenwitz
+title Goats eat Google's lawn name Ursula La Multa
+title Media obsessed with bears name Ursula La Multa
+title Trouble for troubled troublemakers name Rudolf von Treppenwitz
+title There are a lot of bears name Ursula La Multa
+
+[Done] exited with code=0 in 1.247 seconds
