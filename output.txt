@@ -1,11 +1,22 @@
-[Running] python -u "e:\MyProjects\Logs Analysis\logs-analysis.py"
-title Bad things gone, say good people name Anonymous Contributor
-title Balloon goons doomed name Markoff Chaney
-title Bears love berries, alleges bear name Ursula La Multa
-title Candidate is jerk, alleges rival name Rudolf von Treppenwitz
-title Goats eat Google's lawn name Ursula La Multa
-title Media obsessed with bears name Ursula La Multa
-title Trouble for troubled troublemakers name Rudolf von Treppenwitz
-title There are a lot of bears name Ursula La Multa
+**** Top Three Articles by Page View ****
 
-[Done] exited with code=0 in 1.247 seconds
+"Candidate is jerk, alleges rival" -- 338647 views
+
+"Bears love berries, alleges bear" -- 253801 views
+
+"Bad things gone, say good people" -- 170098 views
+
+**** Most Popular Authors Based on Total Article Views ****
+
+Ursula La Multa -- 507594 views
+
+Rudolf von Treppenwitz -- 423457 views
+
+Anonymous Contributor -- 170098 views
+
+Markoff Chaney -- 84557 views
+
+**** Days Where Errors Exceeded 1% of Total Views ****
+
+July 17, 2016 -- 2.28% errors
+

@@ -16,7 +16,7 @@ This section will describe the SQL views I created for the code to function prop
 #### Required SQL Views
 This program uses four SQL views.
 
-**For Problem 2:**
+**For Question 2:**
 
 > `CREATE VIEW articles_by_author AS
 SELECT title, name
@@ -30,7 +30,7 @@ WHERE log.path = CONCAT('/articles/', articles.slug)
 GROUP BY articles.title
 ORDER BY views desc;`
 
-**For Problem 3:**
+**For Question 3:**
 
 >`CREATE VIEW errors AS
 SELECT DATE(time) as day, CAST(COUNT(status) AS FLOAT) AS errors
