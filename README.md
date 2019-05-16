@@ -46,7 +46,7 @@ GROUP BY day
 ORDER BY day;`
 
 #### Running the Program
-*
+ 
 
 First, you'll need to create the views listed above:
 1. Within the VM, navigate to `cd /vagrant`
