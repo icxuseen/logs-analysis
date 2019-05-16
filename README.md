@@ -2,9 +2,9 @@
 ## Udacity Full Stack Nanodegree
 
 ### Project Overview
-For this project, I was tasked to create a reporting tool that prints out reports (in plain text) based on the data in a database. This reporting tool is a Python program using the `psycopg2` module to connect to the database.
+This reporting tool is a Python program using the `psycopg2` module to connect to the database.
 
-### Assignment
+### questions
 The reporting tool needed to answer the following questions:
 1. What are the most popular three articles of all time?
 2. Who are the most popular article authors of all time?
@@ -49,16 +49,8 @@ ORDER BY day;`
  
 
 First, you'll need to create the views listed above:
-1. Within the VM, navigate to `cd /vagrant`
-2. Run `psql`
-3. Connect to the database `\c news`
-4. Enter the views listed above
-5. Exit `psql`
-
-With those view created, run the `log_analysis.py` file:
-1. Place the `logs-analysis.py` file within the same directory as the VM and SQL file provided by Udacity.
-2. If you haven't already, launch the VM:
-	a. `vagrant up` -- only required once
-	b. `vagrant ssh` -- required each time
-3. Within the VM, navigate to `cd /vagrant`
-4. Execute the file `python logs-analysis.py`
+1. Install PostgreSQL`
+2. Run PostgreSQL to Connect to the database`
+3. Import  `news.sql file`
+4. Create the views listed above
+5. Execute the file logs-analysis.py

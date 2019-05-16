@@ -30,11 +30,11 @@ def get_top_articles():
             WHERE log.path = CONCAT('/article/', articles.slug)
             GROUP BY articles.title ORDER BY views desc LIMIT 3;"""
     top_three = get_query_results(query)
-    # Display header and results for Question 1
+    # Display  Question 1 Result
     print('**** Top Three Articles by Page View ****')
     for i in top_three:
         print('"' + i[0] + '" -- ' + str(i[1]) + " views")
-    #print(" ")  # Display line break for legibility
+    
 
 # Question 2: Who are the most popular article authors of all time?
 def get_top_authors():
@@ -44,11 +44,11 @@ def get_top_authors():
             WHERE articles_by_author.title = articles_by_view.title
             GROUP BY name ORDER BY views desc;"""
     author_popularity = get_query_results(query)
-    # Display header and results for Question 2
+    # Display Question 2 Result
     print('**** Most Popular Authors Based on Total Article Views ****')
     for i in author_popularity:
         print(i[0] + ' -- ' + str(i[1]) + ' views')
-    #print(' ')  # Display line break for legibility
+    
 
 # Question 3: On which days did more than 1% of requests lead to errors?
 def get_top_error_days():
@@ -62,11 +62,11 @@ def get_top_error_days():
             AND (((errors.errors/total.total) * 100) > 1.0)
             ORDER BY errors.day;"""
     high_error_results = get_query_results(query)
-    # Display header and results for Question 3
+    # Display  Question 3 Result
     print('**** Days Where Errors Exceeded 1%' + ' of Total Views ****')
     for i in high_error_results:
         print(i[0].strftime('%B %d, %Y') + " -- " + i[1] + "%" + " errors")
-    #print(' ')  # Display line break for legibility
+    
 
 
 if __name__ == '__main__':
