@@ -30,10 +30,9 @@ Markoff Chaney -- 84557 views
 
 July      17, 2016 --  2.28% Errors
 
-## How to run
+## How to run:
 
 1. Install PostgreSQL`
 2. Run PostgreSQL to Connect to the database`
 3. Import news.sql file`
-4. Create the views listed above
-5. Execute the file logs-analysis.py
+4. Run logs-analysis.py file
