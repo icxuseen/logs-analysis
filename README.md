@@ -1,54 +1,37 @@
 # Log Analysis Project
-## Udacity Full Stack Nanodegree
 
-### Project Overview
-This reporting tool is a Python program using the `psycopg2` module to connect to the database.
 
-### questions
-The reporting tool needed to answer the following questions:
-1. What are the most popular three articles of all time?
-2. Who are the most popular article authors of all time?
-3. On which days did more than 1% of requests lead to errors?
 
-### How to Run the Code
-This section will describe the SQL views I created for the code to function properly and how to run the program.
 
-#### Required SQL Views
-This program uses four SQL views.
 
-**For Question 2:**
+## Questions and Answers
 
-> `CREATE VIEW articles_by_author AS
-SELECT title, name
-FROM articles, authors
-WHERE articles.author = authors.id;`
+  
 
-> `CREATE VIEW articles_by_view AS
-SELECT articles.title, COUNT(log.id) AS views
-FROM articles, log
-WHERE log.path = CONCAT('/articles/', articles.slug)
-GROUP BY articles.title
-ORDER BY views desc;`
+**1. What are the most popular three articles of all time?**
 
-**For Question 3:**
+Candidate is jerk, alleges rival -- 338647 views
 
->`CREATE VIEW errors AS
-SELECT DATE(time) as day, CAST(COUNT(status) AS FLOAT) AS errors
-FROM log
-WHERE NOT status='200 OK'
-GROUP BY day
-ORDER BY day;`
+Bears love berries, alleges bear -- 253801 views
 
->`CREATE VIEW total AS
-SELECT DATE(time) AS day, CAST(COUNT(status) AS FLOAT) AS total
-FROM log
-GROUP BY day
-ORDER BY day;`
+Bad things gone, say good people -- 170098 views
 
-#### Running the Program
- 
+**2: Who are the most popular article authors of all time?**
 
-First, you'll need to create the views listed above:
+Ursula La Multa -- 507594 views
+
+Rudolf von Treppenwitz -- 423457 views
+
+Anonymous Contributor -- 170098 views
+
+Markoff Chaney -- 84557 views
+
+**3: On which days did more than 1% of requests lead to errors?**
+
+July      17, 2016 --  2.28% Errors
+
+## How to run
+
 1. Install PostgreSQL`
 2. Run PostgreSQL to Connect to the database`
 3. Import news.sql file`
