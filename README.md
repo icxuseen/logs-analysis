@@ -34,7 +34,6 @@ July      17, 2016 --  2.28% Errors
 
 
 1. Install PostgreSQL
-`
 2. Run PostgreSQL to Connect to the database
-`
+
 3. Import  `news.sql file
