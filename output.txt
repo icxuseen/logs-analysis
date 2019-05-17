@@ -1,4 +1,8 @@
-**** Top Three Articles by Page View ****
+Running reporting tools...
+
+Question 1: What are the most popular three articles of all time?
+
+**** Answer the first question ****
 
 "Candidate is jerk, alleges rival" -- 338647 views
 
@@ -6,17 +10,27 @@
 
 "Bad things gone, say good people" -- 170098 views
 
-**** Most Popular Authors Based on Total Article Views ****
 
-Ursula La Multa -- 507594 views
 
-Rudolf von Treppenwitz -- 423457 views
+Question 2: Who are the most popular article authors of all time?
 
-Anonymous Contributor -- 170098 views
+**** Answer second question ****
 
-Markoff Chaney -- 84557 views
+"Ursula La Multa" -- 507594 views
 
-**** Days Where Errors Exceeded 1% of Total Views ****
+"Rudolf von Treppenwitz" -- 423457 views
 
-July 17, 2016 -- 2.28% errors
+"Anonymous Contributor" -- 170098 views
+
+"Markoff Chaney" -- 84557 views
+
+
+
+Question 3: On which days did more than 1% of requests lead to errors??
+
+**** Answer the third first question ****
+
+"July      17, 2016" --  2.28% Errors
+
+
 
